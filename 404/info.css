@@ -1,0 +1,580 @@
+#info {
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    position: relative;
+    /*font-size: 0.14rem;*/
+    font-size: 14px;
+}
+
+.info-con {
+    width: 100%;
+    position: relative;
+}
+
+.con-left {
+    width: 75%;
+    float: left;
+}
+
+.con-right {
+    width: 23%;
+    float: right;
+}
+
+.con-right .right-txt {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+
+.con-right .right-txt .right-title {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background-color: #eee;
+}
+
+.con-right .right-txt ul {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.con-right .right-txt ul li {
+    width: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.con-right .right-txt ul li a{
+    color: #333;
+}
+
+#main {
+    width: 100%;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+#main .company {
+    float: left;
+    margin-right: 50px;
+}
+
+#main .title {
+    float: left;
+    width: 80%;
+}
+
+#main .title h2 {
+    font-weight: bold;
+    font-size: 26px;
+    position: relative;
+    color: #333;
+}
+
+#main .title .title-info p {
+    color: #666;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#main .title .title-info p span {
+    display: inline-block;
+    color: #333;
+    margin-right: 20px;
+}
+#main .title .title-info .info-tel{
+    min-width: 247px;
+}
+#main .title .title-info .info-net{
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 10px;
+    float: left;
+}
+
+#main .title .title-info .info-net span{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: -5px;
+}
+
+#main .title .title-info .info-address{
+    width: 420px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#main .title .icon {
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    float: right;
+}
+
+#main .title .title-info {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#menu {
+    width: 100%;
+}
+
+#nav {
+    width: 855px;
+    border-bottom: 1px solid #eee;
+    z-index: 111;
+}
+
+#nav ul {
+    background-color: #fff;
+}
+
+#nav li {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    float: left;
+    background: #eee;
+    cursor: pointer;
+}
+
+#nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#nav li:hover a {
+    text-decoration: none;
+}
+
+#nav .active {
+    background: #fff;
+}
+
+#menu #center {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#menu .show {
+    display: block;
+}
+
+#menu .hide {
+    display: none;
+}
+
+#menu .menuBlock {
+    display: none;
+    min-height: 553px;
+}
+
+#menu .menuBlock ul {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#menu .menuBlock ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    background: #e0e0e0;
+    padding: 5px 0;
+    box-sizing: border-box;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#menu .menuBlock ul li .icon, #menu .table-style .icon {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #2aabd2;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#center .center-title {
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+#center .center-table table {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#center .center-table table thead {
+    background: #f9f9f9;
+    border-top: 1px solid #e0e0e0;
+}
+
+#center .center-table table thead tr {
+    height: 40px;
+}
+
+#center .center-table table tr td {
+    border: 1px solid #e0e0e0;
+    font-size: 13px;
+    border-top: 0;
+    text-align: center;
+    width: 20%;
+}
+
+#center .center-table table .info-list td {
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+#center .center-table table .info-list .info-login {
+    /*color: #2b542c;*/
+}
+
+#center .detail-table table {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#center .detail-table table tr {
+    height: 50px;
+}
+
+#center .detail-table table tr .table-left {
+    background-color: #f9f9f9;
+    color: #737373;
+}
+
+#center .detail-table table tr td {
+    vertical-align: middle;
+    border: 1px solid #e0e0e0;
+    font-size: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#menu .table-style {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#menu .table-style .icon {
+    position: relative;
+    margin-left: 20px;
+    top: -1px;
+    font-weight: 300;
+}
+
+#menu .table-style .table-title {
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+#menu .table-style .table-table {
+    width: 100%;
+}
+
+#menu .table-style .table-table table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#menu .table-style .table-table tr {
+    height: 50px;
+}
+
+#menu .table-style .table-table table thead tr td {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+}
+
+#menu .table-style .table-table table tbody tr td {
+    border: 1px solid #e0e0e0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+}
+
+#menu #icp .table-table table tbody tr td:nth-child(3),
+#menu #icp .table-table table tbody tr td:nth-child(4){
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#change, #profession {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#change .change-title, #profession .profession-title {
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+#change .change-table {
+    width: 100%;
+}
+
+#change .change-table table {
+    width: 100%;
+}
+
+#change .change-table table thead tr {
+    height: 50px;
+}
+
+#change .change-table table thead tr td {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+}
+
+#change .change-table table tbody tr td {
+    border: 1px solid #e0e0e0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+#profession .profession-con {
+    width: 100%;
+}
+
+#profession .profession-con img {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 20px;
+    float: left;
+}
+
+#profession .profession-con p {
+    font-size: 18px;
+    color: #333;
+}
+
+#profession .profession-con span {
+    display: block;
+    color: #737373;
+}
+
+.table-style .table-table table tbody tr td .timer {
+    width: 93px;
+    height: 64px;
+}
+
+#info .goTop {
+    position: fixed;
+    right: 20px;
+    bottom: 62px;
+    cursor: pointer;
+    display: none;
+    transition: all 0.3s;
+    z-index: 22;
+    width: 40px;
+}
+#info .goTop img{
+    width: 100%;
+}
+
+#info .noResult {
+    color: #f00;
+    text-align: center;
+}
+
+#info em {
+    color: rgb(239, 86, 68);
+    font-style: normal;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    background: steelblue;
+    /*margin-top: 85px;*/
+    position: relative;
+}
+
+#footer ul {
+    text-align: center;
+}
+
+#footer ul li {
+    text-align: center;
+    display: inline-block;
+    padding-top: 24px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#footer ul li a {
+    color: #fff;
+}
+
+#info #menu .menuBlock .info-show{
+    float: right;
+    background: #2aabd2;
+    color: #fff;
+    text-align: center;
+    border: none;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+#info .no-found{
+    text-align: center;
+    color: #d5d5d5
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#noFound{
+    width: 100%;
+    height: 100%;
+    background: #007bc1 url("../404/404.jpg")no-repeat center center;
+    text-align: center;
+    position: relative;
+}
+#noFound .con{
+    position: absolute;
+    top: 68%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#noFound .con a{
+    display: inline-block;
+    padding: 5px 30px;
+    border: 2px solid #61d1ff;
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#noFound .con a:hover{
+    background: #38a0dd;
+    color: #fff;
+    border: none;
+}
+
+
+/*company页面响应式*/
+@media screen and (max-width: 1200px){
+    #info .con-left{
+        width: 100%;
+        float: none;
+    }
+    #info .con-left #nav{
+        width: 940px;
+    }
+    #info .con-right{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 992px){
+    #info .info-con #main .company{
+        display: none;
+    }
+    #info .info-con #main .title{
+        width: 100%;
+    }
+    #info .con-left #nav{
+        width: 720px;
+    }
+    #info #header .header-input input{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 760px){
+    #info #header .header-input input{
+        width: 300px;
+    }
+    #info .con-left #nav{
+        width: 666px;
+    }
+}
+
+
+
+
+
